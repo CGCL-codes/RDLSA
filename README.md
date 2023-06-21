@@ -145,6 +145,11 @@ Our approach has been evaluated through experimental results on Triple Classific
 | **RDLSA (SS)**    |      0.0926    |     0.1574     |     0.25      |  **0.1458** |  **364**   |  **91.32**           |     0.2654     |     0.3674     |     0.4583    |   03345     |  **189**   |  **96.34**       |
 
 
+# Publications
+
+If you want to know more detailed information, please refer to this paper:
+Waiting for the publication of ECML-PKDD, we will update it as soon as possible.
+
 
 # Authors and Copyright
 
