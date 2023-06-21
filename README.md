@@ -1,9 +1,31 @@
 # Word-Sememe Graph-Centric Chinese Antonym Detection
 
+Antonym detection is a vital task in NLP systems. Patternbased methods, typical solutions for this, recognize semantic relationships between words using given patterns but have limited performance. Distributed word embeddings often struggle to distinguish antonyms from synonyms because their representations rely on local co-occurrences in similar contexts. Combining the ambiguity of Chinese and the contradictory nature of antonyms, antonym detection faces unique challenges. In this paper, we propose a word-sememe graph to integrate relationships between sememes and Chinese words, organized as a 4-partite graph. We design a heuristic sememe relevance computation as a supplementary measure and develop a relation inference scheme using related sememes as taxonomic information to leverage the relational transitivity. The 4partite graph can be extended based on this scheme. We introduce the Relation Discriminated Learning based on Sememe Attention (RDLSA) model, employing three attention strategies on sememes to learn flexible entity representations. Antonym relations are detected using a Link Prediction approach with these embeddings. Our method demonstrates superior performance in Triple Classification and Chinese Antonym Detection compared to the baselines. Experimental results show reduced ambiguity and improved antonym detection using linguistic sememes. A quantitative ablation analysis further confirms our scheme’s effectiveness in capturing antonyms.
+
 
 ## Introduction
-In this paper, we focus on addressing the issues related to synonymy and antonymy in Chinese language. 
-We aim to modify the Link Prediction approach to develop a framework that can effectively detect antonyms in Chinese language. 
+
+*Relation Classification* focuses on separating word pairs into synonyms, antonyms, and hypernyms. Among them, **Antonym Detection** is one of the most challenging subtasks and is also a key problem in linguistics which has great significance for knowledge discovery and application to many NLP tasks, such as **Sentiment Analysis**, **Text Entailment**, and **Machine Translation**.
+
+Generally, appearances of words in synonyms and antonyms follow some patterns (e.g., “X or Y” and “X and Y”). Thus, one straightforward way is to extract word pairs according to the given patterns. For example, Lin identified synonyms and antonyms among distributionally large corpus of plain text based on some fixed patterns in English. Nguyen proposed AntSynNET, which encodes simple paths in parse trees using LSTM to train a classifier for antonym detection. However, pattern-based methods are prone to low recall and rely heavily on external resources.
+
+Since words with similar distributions tend to be relevant in meaning, distribution-based methods are becoming popular recently. They can find out target synonyms and antonyms in large corpora and rarely rely on external lexicon resources. Nevertheless, distributed word embeddings based on contextual co-occurrence cannot distinguish between relatedness and similarity because antonyms usually have similar context. Thus, the mining of negative correlations, i.e., antonymous relations, requires a combination of additional knowledge.
+
+Compared with English, the Chinese language has more ambiguity due to its multi-layer structure, rich semantic elements, and evolving consensus senses, which exacerbates ambiguity. Previous works on Chinese **Relation Classification** focused on semantic opposites using Chinese-specific patterns, such as Chinese four-character patterns antonym compounds, universal quantification, and *sizige*. Several works aimed to improve the performance of **Antonym Detection** using more features, external linguistic knowledge bases, or more complex models. However, pattern-based Chinese antonym extraction is limited by outdated and formal corpora, and methods based on Chinese word embeddings also suffer from confusion between relatedness and similarity for detecting antonyms.
+
+![Illustration of overall architecture](fig/complex_model.png)
+
+To address these problems on Chinese **Antonym Detection**, we introduce sememe to make implicit features explicit and propose a word-sememe layered knowledge graph. It can be modeled as a 4-partite graph which integrates sememes, words, their relations such as synonym and antonym. We extract synonym and antonym triples from linguistic corpora and the Internet resources to instantiate the graph. The relations in the word-sememe graph often carry properties that can improve integrity, such as reflexivity, symmetry, and transitivity. We then design a framework with some schemes for utilizing relational properties.
+
+### Relation Inference
+Synonymous and antonymous relations have transitivity and reflexivity properties. So, we develop a *relation inference scheme* with *sememe relevance computation*. The heuristic *sememe relevance computation* method aims to evaluate relevance between sememes based on the synonyms and antonyms of the word-sememe graph. This method can help refine the graph and emphasize the direct connections between sememes. Guided by sememe relevance, *relation inference* that combines the above-mentioned relational properties and supervision from *sememe relevance* can derive more potential and reliable relations by eliminating transitivity paths with ambiguities.
+
+### Relation Discriminated Learning
+To model symmetry and discriminate synonyms and antonyms, we also employ a knowledge graph embedding model to encode entities for semantic computation and discovering new antonyms with a distribution-based scheme. Specifically, we utilize three sememe-based attention strategies for building sememe space to obtain semantic separation and disambiguation for entities. By mapping entities vector to the sememe vector space dynamically, we can discriminate similar or opposing features.
+
+### Extensive Experiments
+We evaluate our approach on *Triple Classification* and Chinese **Antonym Detection**, and results show our model can effectively distinguish between synonyms and antonyms. As we know, it is the first attempt to detect antonyms using the dynamic embedding with sememes motivated by *Link Prediction* on attributed graph. Experimental results and ablation analysis show that our model can achieve significant performance and exactly capture the underlying antonymous relations.
+
 
 ## Methodology
 ### Framework
