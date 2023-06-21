@@ -122,3 +122,24 @@ Our approach has been evaluated through experimental results on Triple Classific
 | **RDLSA (CS)**    |      0.0926    |     0.1296     |     0.2222    |     0.1388  |    388     |     90.74            |     0.2462     |     0.3333     |     0.4205    |   0.3105    |   235      |    95.62         |
 | **RDLSA (SS)**    |      0.0926    |     0.1574     |     0.25      |  **0.1458** |  **364**   |  **91.32**           |     0.2654     |     0.3674     |     0.4583    |   03345     |  **189**   |  **96.34**       |
 
+
+
+# Authors and Copyright
+
+RDLSA is developed in National Engineering Research Center for Big Data Technology and System, Cluster and Grid Computing Lab, Services Computing Technology and System Lab, School of Computer Science and Technology, Huazhong University of Science and Technology, Wuhan, China by Zhaobo Zhang (zhang\_zb@hust.edu.cn), Pingpeng Yuan (ppyuan@hust.edu.cn), Hai Jin (hjin@hust.edu.cn).
+
+Copyright (C) 2023, [STCS & CGCL](http://grid.hust.edu.cn/) and [Huazhong University of Science and Technology](http://www.hust.edu.cn).
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+
