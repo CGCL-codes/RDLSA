@@ -1,0 +1,409 @@
+
+
+5229
+添加的数量为:27, 其中正面：10, 负面:17, 增对数:0
+precision    recall  f1-score   support
+
+Negative     0.8505    0.3780    0.5234     10428
+Positive     0.6062    0.9351    0.7356     10677
+
+accuracy                         0.6598     21105
+macro avg     0.7283    0.6566    0.6295     21105
+weighted avg     0.7269    0.6598    0.6307     21105
+
+[[3942 6486]
+[ 693 9984]]
+
+
+144450
+添加的数量为:274, 其中正面：93, 负面:181, 增对数:0
+precision    recall  f1-score   support
+
+Negative     0.6788    0.3370    0.4504    162219
+Positive     0.6175    0.8703    0.7224    199472
+
+accuracy                         0.6311    361691
+macro avg     0.6481    0.6036    0.5864    361691
+weighted avg     0.6450    0.6311    0.6004    361691
+
+[[ 54664 107555]
+[ 25869 173603]]
+
+
+4182
+添加的数量为:59, 其中正面：25, 负面:34, 增对数:0
+precision    recall  f1-score   support
+
+Negative     0.7834    0.4860    0.5999     16197
+Positive     0.5311    0.8125    0.6423     11605
+
+accuracy                         0.6223     27802
+macro avg     0.6573    0.6493    0.6211     27802
+weighted avg     0.6781    0.6223    0.6176     27802
+
+[[7872 8325]
+[2176 9429]]
+
+
+25754
+添加的数量为:93, 其中正面：31, 负面:62, 增对数:0
+precision    recall  f1-score   support
+
+Negative     0.9202    0.7717    0.8394     18190
+Positive     0.5729    0.8205    0.6747      6787
+
+accuracy                         0.7850     24977
+macro avg     0.7465    0.7961    0.7571     24977
+weighted avg     0.8258    0.7850    0.7947     24977
+
+[[14038  4152]
+[ 1218  5569]]
+
+
+5229
+添加的数量为:27, 其中正面：10, 负面:17, 增对数:0
+precision    recall  f1-score   support
+
+Negative     0.8860    0.4915    0.6323      7987
+Positive     0.4625    0.8738    0.6049      4000
+
+accuracy                         0.6191     11987
+macro avg     0.6743    0.6826    0.6186     11987
+weighted avg     0.7447    0.6191    0.6232     11987
+
+[[3926 4061]
+[ 505 3495]]
+
+
+14360
+添加的数量为:61, 其中正面：22, 负面:39, 增对数:0
+precision    recall  f1-score   support
+
+Negative     0.6804    0.4190    0.5186      2444
+Positive     0.7732    0.9096    0.8359      5322
+
+accuracy                         0.7552      7766
+macro avg     0.7268    0.6643    0.6772      7766
+weighted avg     0.7440    0.7552    0.7360      7766
+
+[[1024 1420]
+[ 481 4841]]
+
+
+5229
+添加的数量为:27, 其中正面：10, 负面:17, 增对数:0
+添加！
+precision    recall  f1-score   support
+
+Negative     0.8489    0.3853    0.5300     10428
+Positive     0.6085    0.9330    0.7366     10677
+
+accuracy                         0.6624     21105
+macro avg     0.7287    0.6592    0.6333     21105
+weighted avg     0.7273    0.6624    0.6345     21105
+
+[[4018 6410]
+[ 715 9962]]
+
+
+144450
+添加的数量为:274, 其中正面：93, 负面:181, 增对数:0
+添加！
+precision    recall  f1-score   support
+
+Negative     0.6780    0.3403    0.4532    162219
+Positive     0.6182    0.8686    0.7223    199472
+
+accuracy                         0.6316    361691
+macro avg     0.6481    0.6044    0.5877    361691
+weighted avg     0.6450    0.6316    0.6016    361691
+
+[[ 55203 107016]
+[ 26217 173255]]
+
+
+4182
+添加的数量为:59, 其中正面：25, 负面:34, 增对数:0
+添加！
+precision    recall  f1-score   support
+
+Negative     0.7831    0.4891    0.6021     16197
+Positive     0.5321    0.8109    0.6426     11605
+
+accuracy                         0.6234     27802
+macro avg     0.6576    0.6500    0.6224     27802
+weighted avg     0.6783    0.6234    0.6190     27802
+
+[[7922 8275]
+[2194 9411]]
+
+
+25754
+添加的数量为:93, 其中正面：31, 负面:62, 增对数:0
+添加！
+precision    recall  f1-score   support
+
+Negative     0.9196    0.7756    0.8415     18190
+Positive     0.5764    0.8182    0.6763      6787
+
+accuracy                         0.7872     24977
+macro avg     0.7480    0.7969    0.7589     24977
+weighted avg     0.8263    0.7872    0.7966     24977
+
+[[14109  4081]
+[ 1234  5553]]
+
+
+5229
+添加的数量为:27, 其中正面：10, 负面:17, 增对数:0
+添加！
+precision    recall  f1-score   support
+
+Negative     0.8869    0.4878    0.6294      7987
+Positive     0.4613    0.8758    0.6043      4000
+
+accuracy                         0.6173     11987
+macro avg     0.6741    0.6818    0.6168     11987
+weighted avg     0.7449    0.6173    0.6210     11987
+
+[[3896 4091]
+[ 497 3503]]
+
+
+14360
+添加的数量为:61, 其中正面：22, 负面:39, 增对数:0
+添加！
+precision    recall  f1-score   support
+
+Negative     0.6877    0.4317    0.5304      2444
+Positive     0.7771    0.9100    0.8383      5322
+
+accuracy                         0.7595      7766
+macro avg     0.7324    0.6708    0.6844      7766
+weighted avg     0.7490    0.7595    0.7414      7766
+
+[[1055 1389]
+[ 479 4843]]
+
+
+reading sentiment dict .......
+tb False
+Processing........
+precision    recall  f1-score   support
+
+Negative     0.7289    0.3254    0.4499     10428
+Positive     0.5723    0.8818    0.6941     10677
+
+accuracy                         0.6069     21105
+macro avg     0.6506    0.6036    0.5720     21105
+weighted avg     0.6497    0.6069    0.5735     21105
+
+[[3393 7035]
+[1262 9415]]
+
+
+234805
+添加的数量为:317, 其中正面：105, 负面:212, 增对数:0
+reading sentiment dict .......
+simplifyweibo_4_moods.csv False
+Processing........
+precision    recall  f1-score   support
+
+Negative     0.5427    0.2781    0.3677    162219
+Positive     0.5796    0.8094    0.6755    199472
+
+accuracy                         0.5711    361691
+macro avg     0.5611    0.5438    0.5216    361691
+weighted avg     0.5630    0.5711    0.5375    361691
+
+[[ 45110 117109]
+ [ 38014 161458]]
+Acc:0.5657, Precision:0.91, Recall:0.5661, F1:0.698
+pos_right:181521, neg_right:23083, pos_wrong:17951, neg_wrong:139136
+
+
+reading sentiment dict .......
+train.json False
+Processing........
+precision    recall  f1-score   support
+
+Negative     0.7174    0.2694    0.3917     16197
+Positive     0.4552    0.8519    0.5933     11605
+
+accuracy                         0.5125     27802
+macro avg     0.5863    0.5606    0.4925     27802
+weighted avg     0.6079    0.5125    0.4758     27802
+
+[[ 4363 11834]
+[ 1719  9886]]
+Acc:0.5125, Precision:0.8519, Recall:0.4552, F1:0.5934
+pos_right:9886, neg_right:4363, pos_wrong:1719, neg_wrong:11834
+
+
+reading sentiment dict .......
+usual False
+Processing........
+precision    recall  f1-score   support
+
+Negative     0.8552    0.3943    0.5397     18190
+Positive     0.3359    0.8211    0.4768      6787
+
+accuracy                         0.5103     24977
+macro avg     0.5956    0.6077    0.5083     24977
+weighted avg     0.7141    0.5103    0.5226     24977
+
+[[ 7172 11018]
+[ 1214  5573]]
+Acc:0.5103, Precision:0.8211, Recall:0.3359, F1:0.4768
+pos_right:5573, neg_right:7172, pos_wrong:1214, neg_wrong:11018
+
+
+reading sentiment dict .......
+waimai False
+Processing........
+precision    recall  f1-score   support
+
+Negative     0.8765    0.2782    0.4224      7987
+Positive     0.3901    0.9217    0.5482      4000
+
+accuracy                         0.4930     11987
+macro avg     0.6333    0.6000    0.4853     11987
+weighted avg     0.7142    0.4930    0.4643     11987
+
+[[2222 5765]
+[ 313 3687]]
+Acc:0.493, Precision:0.9217, Recall:0.3901, F1:0.5482
+pos_right:3687, neg_right:2222, pos_wrong:313, neg_wrong:5765
+
+
+
+reading sentiment dict .......
+hotel False
+Processing........
+precision    recall  f1-score   support
+
+Negative     0.6752    0.4313    0.5263      2444
+Positive     0.7760    0.9047    0.8354      5322
+
+accuracy                         0.7557      7766
+macro avg     0.7256    0.6680    0.6809      7766
+weighted avg     0.7443    0.7557    0.7382      7766
+
+[[1054 1390]
+[ 507 4815]]
+Acc:0.7557, Precision:0.9047, Recall:0.776, F1:0.8354
+pos_right:4815, neg_right:1054, pos_wrong:507, neg_wrong:1390
+
+
+
+reading sentiment dict .......
+tb True
+Processing........
+precision    recall  f1-score   support
+
+Negative     0.7320    0.3666    0.4885     10428
+Positive     0.5841    0.8689    0.6986     10677
+
+accuracy                         0.6207     21105
+macro avg     0.6580    0.6177    0.5936     21105
+weighted avg     0.6572    0.6207    0.5948     21105
+
+[[3823 6605]
+[1400 9277]]
+Acc:0.6207, Precision:0.8689, Recall:0.5841, F1:0.6986
+pos_right:9277, neg_right:3823, pos_wrong:1400, neg_wrong:6605
+
+
+
+234805
+添加的数量为:317, 其中正面：105, 负面:212, 增对数:0
+reading sentiment dict .......
+simplifyweibo_4_moods.csv True
+Processing........
+precision    recall  f1-score   support
+
+Negative     0.5432    0.3046    0.3903    162219
+Positive     0.5833    0.7917    0.6717    199472
+
+accuracy                         0.5732    361691
+macro avg     0.5632    0.5481    0.5310    361691
+weighted avg     0.5653    0.5732    0.5455    361691
+
+[[ 49414 112805]
+ [ 41557 157915]]
+Acc:0.5673, Precision:0.8843, Recall:0.5694, F1:0.6927
+pos_right:176392, neg_right:28802, pos_wrong:23080, neg_wrong:133417
+
+
+
+reading sentiment dict .......
+train.json True
+Processing........
+precision    recall  f1-score   support
+
+Negative     0.7230    0.3035    0.4276     16197
+Positive     0.4629    0.8377    0.5963     11605
+
+accuracy                         0.5265     27802
+macro avg     0.5930    0.5706    0.5119     27802
+weighted avg     0.6145    0.5265    0.4980     27802
+
+[[ 4916 11281]
+[ 1883  9722]]
+Acc:0.5265, Precision:0.8377, Recall:0.4629, F1:0.5963
+pos_right:9722, neg_right:4916, pos_wrong:1883, neg_wrong:11281
+
+
+reading sentiment dict .......
+usual True
+Processing........
+precision    recall  f1-score   support
+
+Negative     0.8569    0.4382    0.5799     18190
+Positive     0.3481    0.8039    0.4858      6787
+
+accuracy                         0.5376     24977
+macro avg     0.6025    0.6210    0.5328     24977
+weighted avg     0.7186    0.5376    0.5543     24977
+
+[[ 7971 10219]
+[ 1331  5456]]
+Acc:0.5376, Precision:0.8039, Recall:0.3481, F1:0.4858
+pos_right:5456, neg_right:7971, pos_wrong:1331, neg_wrong:10219
+
+
+reading sentiment dict .......
+waimai True
+Processing........
+precision    recall  f1-score   support
+
+Negative     0.8802    0.3340    0.4843      7987
+Positive     0.4061    0.9093    0.5614      4000
+
+accuracy                         0.5260     11987
+macro avg     0.6432    0.6216    0.5229     11987
+weighted avg     0.7220    0.5260    0.5100     11987
+
+[[2668 5319]
+[ 363 3637]]
+Acc:0.526, Precision:0.9093, Recall:0.4061, F1:0.5615
+pos_right:3637, neg_right:2668, pos_wrong:363, neg_wrong:5319
+
+
+
+reading sentiment dict .......
+hotel True
+Processing........
+precision    recall  f1-score   support
+
+Negative     0.6681    0.4595    0.5445      2444
+Positive     0.7829    0.8952    0.8353      5322
+
+accuracy                         0.7580      7766
+macro avg     0.7255    0.6773    0.6899      7766
+weighted avg     0.7468    0.7580    0.7438      7766
+
+[[1123 1321]
+[ 558 4764]]
+Acc:0.758, Precision:0.8952, Recall:0.7829, F1:0.8353
+pos_right:4764, neg_right:1123, pos_wrong:558, neg_wrong:1321
